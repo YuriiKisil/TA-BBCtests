@@ -1,0 +1,9 @@
+BBC tests
+1) test that goes to BBC, clicks on News and checks the name of the headline article against a hard-coded value
+2) test that does the same thing, except checks secondary article titles against a hard-coded List<String> of Expected Results
+3) test that stores the text of the Category link under the headline article. Then, it enter this text in the Search bar. Then, it should check the name of the first article against a hardcoded value.
+4) test which verifies that user can submit a question to BBC
+3 more tests (use copy-paste). They should do the same as the one we just wrote, except:
+•	First one will try 141 characters instead of 140;
+•	Second one will leave Name empty;
+•	Third one will leave Email empty (but Name not empty)
